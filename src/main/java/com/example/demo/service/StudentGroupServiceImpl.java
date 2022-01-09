@@ -47,7 +47,7 @@ public class StudentGroupServiceImpl implements StudentGroupService {
         if (studentGroupDao.existsById(id)){
             group.setId(id);
             studentGroupDao.save(group);
-             return true;
+              return true;
         }
         return false;
     }
